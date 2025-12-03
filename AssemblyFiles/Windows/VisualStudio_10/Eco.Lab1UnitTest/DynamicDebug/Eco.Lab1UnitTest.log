@@ -1,0 +1,19 @@
+﻿Build started 03.12.2025 9:32:41.
+     1>Project "C:\Development\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Development\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.exe) does not match the Linker's OutputFile property value (C:\Development\Eco.Lab1\BuildFiles\Windows\x86\DynamicDebug\Eco.Lab1UnitTest.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\BuildFiles\Windows\x86\DynamicDebug\Eco.Lab1UnitTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\BuildFiles\Windows\x86\DynamicDebug\ /LIBPATH:C:\Development\Eco.Framework\Eco.InterfaceBus1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Development\Eco.Framework\Eco.System1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Development\Eco.Framework\Eco.MemoryManager1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\Development\Eco.Framework\Eco.FileSystemManagement1\BuildFiles\Windows\x86\StaticRelease\ 00000000000000000000000042757331.lib 0000000000000000000000004D656D31.lib 00000000000000000000000046534D31.lib 00000000000000000000000053595332.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Development\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Development\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\DynamicDebug\Eco.Lab1UnitTest.lib" /MACHINE:X86 Eco.Lab1UnitTest\DynamicDebug\CEcoLab1Sink.obj
+         Eco.Lab1UnitTest\DynamicDebug\EcoLab1.obj
+     1>CEcoLab1Sink.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>EcoLab1.obj : error LNK2019: unresolved external symbol _createCEcoLab1@12 referenced in function _main
+     1>EcoLab1.obj : error LNK2019: unresolved external symbol _CreateIEcoSystem1@4 referenced in function _main
+     1>..\..\..\BuildFiles\Windows\x86\DynamicDebug\Eco.Lab1UnitTest.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "C:\Development\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.27

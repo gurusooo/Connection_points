@@ -1,0 +1,23 @@
+﻿Build started 23.11.2025 0:30:56.
+     1>Project "C:\Development\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Eco.Lab1UnitTest\Static\Eco.Lab1UnitTest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018: The "VCMessage" task failed unexpectedly.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018: System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at System.String.Format(IFormatProvider provider, String format, Object[] args)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at Microsoft.Build.Shared.ResourceUtilities.FormatString(String unformatted, Object[] args)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at Microsoft.Build.Utilities.TaskLoggingHelper.FormatString(String unformatted, Object[] args)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at Microsoft.Build.Utilities.TaskLoggingHelper.FormatResourceString(String resourceName, Object[] args)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at Microsoft.Build.Utilities.TaskLoggingHelper.LogWarningWithCodeFromResources(String messageResourceName, Object[] messageArgs)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at Microsoft.Build.CPPTasks.VCMessage.Execute()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Microsoft.Build.BackEnd.ITaskExecutionHost.Execute()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext()
+     1>Done Building Project "C:\Development\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.05
